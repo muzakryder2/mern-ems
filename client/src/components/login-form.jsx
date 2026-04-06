@@ -1,7 +1,7 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeftIcon, EyeIcon, EyeOffIcon, Loader2Icon } from "lucide-react";
 import LoginLeftSide from "../components/login-left-side";
-import { useState } from "react";
 
 export default function LoginForm({ role, title, subtitle }) {
   const [email, setEmail] = useState("");
